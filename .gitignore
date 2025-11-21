@@ -1,0 +1,35 @@
+# --- Python cache files ---
+__pycache__/
+*.pyc
+
+# --- Virtual environments ---
+.venv/
+*/.venv/
+
+# --- OS/system files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE files ---
+.vscode/
+.idea/
+
+# --- Model weights / ML artifacts ---
+*.pth
+*.pt
+*.npz
+*.zip
+*.h5
+*.onnx
+*.pb
+
+# --- Logs ---
+*.log
+
+# --- Generated results & experiment data ---
+outputs/
+TORQUE_EXPERIMENT/outputs/
+TORQUE_EXPERIMENT/outputs/plots/
+
+
+

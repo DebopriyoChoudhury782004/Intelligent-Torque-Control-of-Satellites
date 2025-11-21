@@ -1,0 +1,9 @@
+gymnasium==1.2.2
+stable-baselines3==2.7.0
+sb3-contrib==2.3.0
+torch==2.9.1+cpu
+numpy>=1.24
+tqdm>=4.64.0
+typing-extensions>=4.8.0
+pandas>=2.0.0
+matplotlib>=3.8.0
