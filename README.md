@@ -75,12 +75,12 @@ where:
 The control objective is to minimize angular velocity while keeping control effort small:
 
 \[
-r(s,a) = -(\|\omega\|^2 + 0.01\|a\|^2)
+r(s,a) = -(‖ω‖² + 0.01‖a‖²)
 \]
 
 Episodes terminate when:
 
-- \(\|\omega\|^2 < 0.02\) (successful detumbling), or
+- ‖ω‖² < 0.02 (successful detumbling), or
 - The maximum number of steps (`max_steps`, default 500) is reached.
 
 ---
